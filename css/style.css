@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    height: 50px;
+    
+
+}
+
+
+body{
+    background-color: rgb(203, 240, 255);
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer{
+    text-align: center;
+}
+
+main{
+    margin-top: 40px;
+    min-height: 1100px;
+    text-align: center;
+}
+a {
+    color:blueviolet;
+    text-decoration: none;
+}
+
+h1{
+    color: blueviolet;
+}
+
+span{
+    color: fuchsia;
+    font-weight: 700;
+}
+
+a{
+    min-height: 22px;
+    width: 60px;
+    background-color: rgb(201, 0, 134);
+    margin-right: 50px;
+    border-style: none;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 3px;
+    text-align: center;
+    color: white;
+}
+
+
+a:hover{
+    background-color: #DAD2FF;
+}
+
+table{
+    display: inline-block;
+    
+}
+
+
+
+form{
+ text-align: left;
+ display: inline-block;
+}
+
+nav{
+display: flex;
+justify-content: right;
+}
+
+img{
+    border-radius: 50%;
+}
+
+form div{
+    margin-bottom: 40px;
+    
+}
+form label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    
+}
+
+input[type="submit"] {
+    float: inline-end;
+
+}
+
+.map img {
+    margin-top: 100px;
+    border-radius: 0;
+}
+
